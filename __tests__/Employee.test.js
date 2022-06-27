@@ -1,4 +1,4 @@
-const Employee= require('./lib/Employee')
+const Employee= require('../lib/Employee')
 const Employee = new Employee("KSteve","99","ksteve@email.email")
     test("tests if we can get constructor values for employee object", () => {
       expect(employee.name()).toBe("KSteve");

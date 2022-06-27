@@ -19,7 +19,11 @@ See documentation for Inquirer and Jest
 
 ## Links
 
+Github:
 https://gelp1987.github.io/OOP-Team-Profile_Generator
+
+Video Demo:
+https://drive.google.com/file/d/1GxXbjT1EWlptEDhEGQfMLbxWc5hOmbP5/view
 
 ## Contribution
 
@@ -59,44 +63,4 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
-The application must have these classes: Employee, Manager, Engineer, and Intern. The tests for these classes (in the _tests_ directory) must all pass.
-
-The first class is an Employee parent class with the following properties and methods:
-
-name
-
-id
-
-email
-
-getName()
-
-getId()
-
-getEmail()
-
-getRole() // Returns 'Employee'
-
-The other three classes will extend Employee.
-
-In addition to Employee's properties and methods, Manager will also have:
-
-officeNumber
-
-getRole() // Overridden to return 'Manager'
-
-In addition to Employee's properties and methods, Engineer will also have:
-
-github // GitHub username
-
-getGithub()
-
-getRole() // Overridden to return 'Engineer'
-
-In addition to Employee's properties and methods, Intern will also have:
-
-school
-
-getSchool()
-
-getRole() // Overridden to return 'Intern' -->
+The application must have these classes: Employee, Manager, Engineer, and Intern. The tests for these classes (in the _tests_ directory) must all pass.-->
